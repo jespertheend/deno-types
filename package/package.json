@@ -1,0 +1,13 @@
+{
+  "name": "deno-types",
+  "version": "1.16.0",
+  "description": "TypeScript definitions for the Deno API.",
+  "homepage": "https://github.com/jespertheend/deno-types",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jespertheend/deno-types.git",
+    "directory": "package"
+  },
+  "types": "index.d.ts",
+  "main": ""
+}

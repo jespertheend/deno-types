@@ -45,4 +45,4 @@ for (const declarationFilePath of declarationFiles) {
   concatenatedContent += newFileContent + "\n";
 }
 
-await Deno.writeTextFile("./out.d.ts", concatenatedContent);
+await Deno.writeTextFile("./package/index.d.ts", concatenatedContent);
