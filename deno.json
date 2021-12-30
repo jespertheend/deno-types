@@ -6,12 +6,18 @@
   },
   "fmt": {
     "files": {
-      "include": ["./generate.js"]
+      "include": [
+        "./"
+      ],
+      "exclude": ["deno/"]
     }
   },
   "lint": {
     "files": {
-      "include": ["./generate.js"]
+      "include": [
+        "./"
+      ],
+      "exclude": ["deno/"]
     }
   }
 }
