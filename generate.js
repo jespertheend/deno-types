@@ -45,4 +45,12 @@ for (const declarationFilePath of declarationFiles) {
   concatenatedContent += newFileContent + "\n";
 }
 
-await Deno.writeTextFile("./package/index.d.ts", concatenatedContent);
+try {
+  await Deno.mkdir("./package/deno-types", { recursive: true });
+} catch (e) {
+  if (!(e instanceof Deno.errors.AlreadyExists)) {
+    throw e;
+  }
+}
+
+await Deno.writeTextFile("./package/deno-types/index.d.ts", concatenatedContent);

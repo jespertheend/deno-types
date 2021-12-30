@@ -8,6 +8,6 @@
     "url": "https://github.com/jespertheend/deno-types.git",
     "directory": "package"
   },
-  "types": "index.d.ts",
+  "types": "deno-types/index.d.ts",
   "main": ""
 }
