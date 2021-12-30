@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true
+  },
+  "fmt": {
+    "files": {
+      "include": ["./generate.js"]
+    }
+  },
+  "lint": {
+    "files": {
+      "include": ["./generate.js"]
+    }
+  }
+}
